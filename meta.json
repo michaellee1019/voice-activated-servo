@@ -1,0 +1,30 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "michaellee1019:voice-activated-servo",
+  "visibility": "public_unlisted",
+  "url": "",
+  "description": "Modular generic service: service",
+  "models": [
+    {
+      "api": "rdk:service:generic",
+      "model": "michaellee1019:voice-activated-servo:service",
+      "short_description": "Provide a short (100 characters or less) description of this model here",
+      "markdown_link": "README.md#model-michaellee1019voice-activated-servoservice"
+    }
+  ],
+  "applications": null,
+  "markdown_link": "README.md",
+  "entrypoint": "dist/main",
+  "first_run": "",
+  "build": {
+    "build": "./build.sh",
+    "setup": "./setup.sh",
+    "path": "dist/archive.tar.gz",
+    "arch": [
+      "linux/amd64",
+      "linux/arm64",
+      "darwin/arm64",
+      "windows/amd64"
+    ]
+  }
+}
